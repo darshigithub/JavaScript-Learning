@@ -1,0 +1,25 @@
+*{
+    background-color: #333;
+    color: wheat;
+    text-align: center;
+}
+
+.container {
+    margin: 250px 0 0 0;
+}
+
+.container span{
+    font-size: 20px;
+    font-family: Geneva;
+    margin: 20px;
+}
+
+.container #clock{
+    border: transparent;
+    border-radius: 15px;
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    background-color: rgb(232, 171, 57);
+    padding: 10px;
+}

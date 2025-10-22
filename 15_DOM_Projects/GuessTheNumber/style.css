@@ -1,0 +1,47 @@
+*{
+    background-color: #222;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+    border: transparent;
+    display: inline-block;
+}
+
+.container h1{
+    border: transparent;
+    background-color: black;
+}
+
+.container #helper_text p{
+    line-height: 25px;
+    margin: 10px;
+}
+
+.container #heading{
+    font-size: 50px;
+    padding: 20px;
+}
+
+#user_number{
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    background-color: white;
+}
+
+#submit{
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+#result p{
+    line-height: 40px;
+}
