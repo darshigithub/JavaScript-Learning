@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+
+<body style="background-color: #444; color: aliceblue;">
+    <h1>Welcome to Photoshop</h1>
+    <ul id="image">
+        <li><img src="/16_Events/image1.jpg" alt="nature" id="nature" height="100px" width="100px"></li>
+        <li><img src="/16_Events/image2.jpg" alt="mountain" height="100px" width="100px" id="mountain"></li>
+        <li><img src="/16_Events/image3.jpg" alt="bird" height="100px" width="100px" id="bird"></li>
+        <li><img src="/16_Events/image4.jpg" alt="building" height="100px" width="100px" id="building"></li>
+        <li><a href="https://www.google.com" target="_blank" style="color: white;">Google</a></li>
+    </ul>
+</body>
+
+<script>
+    // method-1 : add event in html like onclick = function()
+
+    // method-2 : add event in js like onclick = function()
+    // document.querySelector("#bird").onclick = function () {
+    //     alert("Bird is flying");
+    // }
+
+    // method-3 : add event in js like addEventListener(par1, par2) -> advanced 
+
+    document.querySelector("#bird").addEventListener("click", function() {
+        alert(`Bird is flying`)
+    });
+
+    
+</script>
+
+</html>
