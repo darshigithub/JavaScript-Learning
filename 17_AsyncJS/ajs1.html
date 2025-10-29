@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsynJS</title>
+</head>
+
+<body>
+    <h1 id="heading">Welcome to 2025</h1>
+
+    <button id="stop">Stop</button>
+</body>
+
+<script>
+
+    // let sayName = function () {
+    //     console.log(`Darshan`);
+    // }
+
+    // setTimeout(sayName, 2000);
+
+    let changeHeading = function () {
+        document.querySelector("#heading").innerHTML = "Hello User this is Darshan";
+    }
+
+    let changeMe = setTimeout(changeHeading, 3000);
+
+    // clearTimeout(changeMe); // clear all the queue of task 
+
+    document.querySelector("#stop").addEventListener("click", function() {
+        clearTimeout(changeMe);
+        console.log("Stopped");
+    });
+
+</script>
+
+</html>
