@@ -40,9 +40,10 @@
 // getAllUsers();
 
 function getAllUsers() {
-    fetch("http://localhost:9090/allStudents").then(function (response) {
+    fetch("https://randomuser.me/api/").then(function (response) {
         return response;
-    }).then(function (data) {
+    }
+    ).then(function (data) {
         console.log(data);
     }).catch(function (error) {
         console.log(error);
@@ -52,3 +53,4 @@ function getAllUsers() {
 }
 
 getAllUsers();
+
